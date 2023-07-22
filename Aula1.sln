@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OlaMundo", "OlaMundo\OlaMundo.csproj", "{754575CB-FB99-4CB9-B501-7F682ECC50A4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variaveis", "Variaveis\Variaveis.csproj", "{429039ED-1ADE-443C-AB3E-7EA639B77FF8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OlaMundo", "OlaMundo\OlaMundo.csproj", "{754575CB-FB99-4CB9-B501-7F682ECC50A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		{754575CB-FB99-4CB9-B501-7F682ECC50A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{754575CB-FB99-4CB9-B501-7F682ECC50A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{754575CB-FB99-4CB9-B501-7F682ECC50A4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{429039ED-1ADE-443C-AB3E-7EA639B77FF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{429039ED-1ADE-443C-AB3E-7EA639B77FF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{429039ED-1ADE-443C-AB3E-7EA639B77FF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{429039ED-1ADE-443C-AB3E-7EA639B77FF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
