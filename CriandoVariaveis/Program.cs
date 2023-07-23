@@ -13,7 +13,7 @@ class Programa
         int salarioInteiro;
         salarioInteiro = (int)salario;
 
-        Console.WriteLine(  " Valores maiores que 32b");
+        Console.WriteLine(" Valores maiores que 32b");
         long x;
         x = 2000000000000000000;
 
@@ -27,6 +27,8 @@ class Programa
 
         Console.WriteLine("Executando o projeto 5 - Caracteres e Textos");
         char letra = 'a';
+        letra = (char)65;
+        Console.WriteLine(letra);
 
         Console.WriteLine("Tecle enter para fechar");
         Console.ReadLine();
