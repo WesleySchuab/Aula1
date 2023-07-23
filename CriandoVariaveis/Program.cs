@@ -25,6 +25,9 @@ class Programa
         float altura;
         altura = 1.628556f;
 
+        Console.WriteLine("Executando o projeto 5 - Caracteres e Textos");
+        char letra = 'a';
+
         Console.WriteLine("Tecle enter para fechar");
         Console.ReadLine();
     }
