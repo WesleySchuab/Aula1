@@ -33,6 +33,9 @@ class Programa
         string primeiraFrase = "Alura - Cursos de tecnologia";
         Console.WriteLine(primeiraFrase);
 
+        string segundaFrase = "Alura - Cursos de tecnologia ";
+        Console.WriteLine(primeiraFrase + 2022);
+
         Console.WriteLine("Tecle enter para fechar");
         Console.ReadLine();
     }
