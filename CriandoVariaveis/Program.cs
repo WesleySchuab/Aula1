@@ -21,6 +21,9 @@ class Programa
         short y;
         y = 15000;
 
+        Console.WriteLine("float que, assim como o double, trabalha com números com vírgula, porém com uma precisão muito maior");
+        float altura;
+        altura = 1.628556f;
 
         Console.WriteLine("Tecle enter para fechar");
         Console.ReadLine();
