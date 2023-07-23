@@ -36,6 +36,13 @@ class Programa
         string segundaFrase = "Alura - Cursos de tecnologia ";
         Console.WriteLine(primeiraFrase + 2022);
 
+        Console.WriteLine("@ para formatação");
+        string cursos = @"Cursos disponíveis: 
+- Go
+- C#
+- Python
+- Java";
+
         Console.WriteLine("Tecle enter para fechar");
         Console.ReadLine();
     }
