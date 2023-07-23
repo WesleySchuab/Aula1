@@ -17,6 +17,11 @@ class Programa
         long x;
         x = 2000000000000000000;
 
+        Console.WriteLine("Para trabalhar com números menores, temos a variável do tipo short");
+        short y;
+        y = 15000;
+
+
         Console.WriteLine("Tecle enter para fechar");
         Console.ReadLine();
     }
