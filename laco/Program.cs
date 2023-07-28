@@ -16,13 +16,18 @@ class Programa
              mes = mes + 1;
          }
 
-         Console.WriteLine( "Usando laço For");
+        */
+
+        /*
+
+        Console.WriteLine( "Usando laço For");
          for (int mes = 1; mes <= 12; mes++)
          {
              investimento *= 1.005;
              Console.WriteLine("No mês " + mes + " você tem R$ " + investimento);
          }   
         */
+        /*
         Console.WriteLine("Executando o projeto 12 - Investindo a Longo prazo");
 
         double fatorRendimento = 1.005;
@@ -39,6 +44,19 @@ class Programa
         }
 
         Console.WriteLine("Depois de 5 anos você terá R$ " + investimento);
+        */
+        for (int contadorLinhas = 0; contadorLinhas < 10; contadorLinhas++)
+        {
+            for (int contadorColunas = 0; contadorColunas < 10; contadorColunas++)
+            {
+                Console.Write("*");
+                if (contadorColunas >= contadorLinhas)
+                    break;
+
+            }
+            Console.WriteLine();
+        }
+
 
         Console.WriteLine("Tecle enter para fechar ...");
         Console.ReadLine();
